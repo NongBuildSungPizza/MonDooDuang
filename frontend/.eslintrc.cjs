@@ -14,6 +14,8 @@ module.exports = {
     "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
     "no-multiple-empty-lines": ["error", { max: 1, maxEOF: 0 }],
     indent: ["error", 2],
-    semi: ["error", "never"]
+    semi: ["error", "never"],
+    "@typescript-eslint/explicit-function-return-type": "warn",
+    "@typescript-eslint/no-unused-vars": "warn"
   }
 }

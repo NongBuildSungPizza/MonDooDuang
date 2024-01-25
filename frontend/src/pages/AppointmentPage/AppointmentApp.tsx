@@ -1,4 +1,4 @@
-import AppointmentPage from "./AppointmentPage";
+import AppointmentPage from "./AppointmentPage"
 
 export default function AppointmentApp() {
   return (
@@ -6,5 +6,5 @@ export default function AppointmentApp() {
     <>
       <AppointmentPage />
     </>
-  );
+  )
 }

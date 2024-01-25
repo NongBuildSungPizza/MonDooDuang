@@ -1,4 +1,4 @@
-import FortuneTellerPackagePage from "./FortuneTellerPackagePage";
+import FortuneTellerPackagePage from "./FortuneTellerPackagePage"
 
 export default function FortuneTellerPackageApp() {
   return (
@@ -6,5 +6,5 @@ export default function FortuneTellerPackageApp() {
     <>
       <FortuneTellerPackagePage />
     </>
-  );
+  )
 }

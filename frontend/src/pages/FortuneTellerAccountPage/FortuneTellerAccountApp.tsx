@@ -1,4 +1,4 @@
-import FortuneTellerAccountPage from "./FortuneTellerAccountPage";
+import FortuneTellerAccountPage from "./FortuneTellerAccountPage"
 
 export default function FortuneTellerAccountApp() {
   return (
@@ -6,5 +6,5 @@ export default function FortuneTellerAccountApp() {
     <>
       <FortuneTellerAccountPage />
     </>
-  );
+  )
 }

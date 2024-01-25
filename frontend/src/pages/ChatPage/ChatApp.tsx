@@ -1,4 +1,4 @@
-import ChatPage from "./ChatPage";
+import ChatPage from "./ChatPage"
 
 export default function ChatApp() {
   return (
@@ -6,5 +6,5 @@ export default function ChatApp() {
     <>
       <ChatPage />
     </>
-  );
+  )
 }

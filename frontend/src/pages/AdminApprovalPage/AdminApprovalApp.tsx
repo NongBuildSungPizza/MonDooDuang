@@ -1,4 +1,4 @@
-import AdminApprovalPage from "./AdminApprovalPage";
+import AdminApprovalPage from "./AdminApprovalPage"
 
 export default function AdminApprovalApp() {
   return (
@@ -6,5 +6,5 @@ export default function AdminApprovalApp() {
     <>
       <AdminApprovalPage />
     </>
-  );
+  )
 }

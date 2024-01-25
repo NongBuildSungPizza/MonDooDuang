@@ -1,4 +1,4 @@
-import AccountPage from "./AccountPage";
+import AccountPage from "./AccountPage"
 
 export default function AccountApp() {
   return (
@@ -6,5 +6,5 @@ export default function AccountApp() {
     <>
       <AccountPage />
     </>
-  );
+  )
 }

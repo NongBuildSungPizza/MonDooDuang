@@ -21,6 +21,8 @@ module.exports = {
     ecmaVersion: "latest"
   },
   rules: {
-    "no-multiple-empty-lines": ["error", { max: 1, maxEOF: 0 }]
+    "no-multiple-empty-lines": ["error", { max: 1, maxEOF: 0 }],
+    indent: ["error", 2],
+    semi: ["error", "never"]
   }
-};
+}

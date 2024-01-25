@@ -25,6 +25,7 @@ module.exports = {
     indent: ["error", 2],
     semi: ["error", "never"],
     "@typescript-eslint/explicit-function-return-type": "warn",
-    "@typescript-eslint/no-unused-vars": "warn"
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/consistent-type-imports": "off"
   }
 }

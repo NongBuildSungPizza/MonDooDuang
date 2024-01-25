@@ -1,13 +1,13 @@
-import { exampleRepository } from "../../repositories/example.repository"
+import { exampleRepository } from '../../repositories/example.repository'
 
-//Business logic here
+// Business logic here
 
 export const exampleService = {
   getHelloWorld: async () => {
-    //Please call repository here
+    // Please call repository here
     const data = await exampleRepository.find()
     if (data.length === 0) {
-      return "Hello World"
+      return 'Hello World'
     }
   }
 }

@@ -1,6 +1,6 @@
 import { ExampleSchema } from "../models/example/example.model"
 
-//Connect to db here
+// Connect to db here
 const connection = "CONNECT TO SOME DB"
 
 export const exampleRepository = {
